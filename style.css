@@ -27,6 +27,10 @@ h2 {
 
 }
 
+.extra {
+    color: black;
+}
+
 button {
     background-color: hsl(0, 0%, 95%);
     padding: 10px;
