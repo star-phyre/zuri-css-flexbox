@@ -1,0 +1,68 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+     width: 65%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+    
+
+h2 {
+     color: hsl(0, 0%, 95%);
+     font-weight: 700;
+     margin-top: 20px;
+
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#sedan {
+     background-color: hsl(31, 77%, 52%);
+     padding: 2em;
+}
+#sedan button{
+    color: hsl(31, 77%, 52%);
+}
+#suv {
+     background-color: hsl(184, 100%, 22%);
+     padding: 2em;
+}
+
+#suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+     background-color: hsl(179, 100%, 13%);
+     padding: 2em;
+}
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
